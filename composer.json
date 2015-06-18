@@ -1,6 +1,7 @@
 {
     "name": "wbat/stocks-to-rss",
     "description": "Stocks to RSS",
+    "license": "MIT",
     "authors": [
         {
             "name": "bateller",
