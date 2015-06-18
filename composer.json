@@ -1,6 +1,9 @@
 {
     "name": "wbat/stocks-to-rss",
     "description": "Stocks to RSS",
+    "keywords": ["package", "dependency", "autoload"],
+    "homepage": "https://wbat.net/",
+    "type": "library",
     "license": "MIT",
     "authors": [
         {
@@ -8,11 +11,19 @@
             "email": "brianateller@gmail.com"
         }
     ],
+    "support": {
+        "issues": "https://github.com/wbat/stocks-to-rss/issues"
+    },
     "minimum-stability": "dev",
     "require": {
         "php": ">=5.3.0"
     },
     "autoload": {
+        "psr-0": {
+            "StockstoRSS": "src/"
+        }
+    }
+    "autoload-dev": {
         "psr-0": {
             "StockstoRSS": "src/"
         }
