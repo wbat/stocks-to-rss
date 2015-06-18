@@ -1,0 +1,20 @@
+{
+    "name": "WBAT/Stocks-to-RSS",
+    "description": "Stocks to RSS",
+    "homepage": "http://www.wbat.net",
+    "repositories": [{
+    "type": "package",
+    "package": {
+        "name": "WBAT/Stocks-to-RSS",
+        "version": "0.1.0",
+        "source": {
+                "url": "git@github.com:Repository.git",
+            "type": "git",
+        "reference": "0.1.0"
+        }
+        }
+    }],
+    "require": {
+        "php": ">=5.3.3"
+   }
+}
