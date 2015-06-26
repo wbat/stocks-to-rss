@@ -6,7 +6,7 @@ class getStock
 {
 	public static function stock()
 	{
-		return 'Stock Info';
+		return getStocks();
 	}
 }
 ?>
